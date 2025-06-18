@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  reg_num: MyString
+  math: 1.5
+  literature: 1.5
+  f_language: 1.5
+  physic: 1.5
+  chem: 1.5
+  biology: 1.5
+  history: 1.5
+  geo: 1.5
+  ce: 1.5
+  f_language_id: MyString
+
+two:
+  reg_num: MyString
+  math: 1.5
+  literature: 1.5
+  f_language: 1.5
+  physic: 1.5
+  chem: 1.5
+  biology: 1.5
+  history: 1.5
+  geo: 1.5
+  ce: 1.5
+  f_language_id: MyString
