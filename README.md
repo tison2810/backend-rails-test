@@ -52,8 +52,8 @@ A simple web application for viewing student scores from assignment tests.
     ```
 
 6. Visit the web:
-    - Frontend: http://localhost:3000 (or port depending on your config)
-    - API: http://localhost:8080
+    - Frontend: http://localhost:5173 (or port depending on your config)
+    - API: http://localhost:3000
 
 ---
 
