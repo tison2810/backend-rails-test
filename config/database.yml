@@ -18,18 +18,14 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: <%= ENV['DB_USER'] %>
-  password: <%= ENV['DB_PASSWORD'] %>
+  username: postgres
+  password: password
   host: db
 
 
 development:
   <<: *default
-  # database: gscores
-  # username: tison
-  # password: kbedHOdzIdLuBCqMddScrviShEhRhqstOfvwhLPbeeGMxfWgTRLvmZAgbAY42MRlGHfkdaG0esFcfog7vmBTg
-  # host: localhost
-  # port: 5433
+  database: myapp_development
 
   # The specified database role being used to connect to PostgreSQL.
   # To create additional roles in PostgreSQL see `$ createuser --help`.
@@ -88,7 +84,7 @@ test:
 production:
   primary: &primary_production
     <<: *default
-    database: <%= ENV["DB_NAME"] %>
+    database: gscores
   cache:
     <<: *primary_production
     database: gscores_production_cache

@@ -44,9 +44,9 @@ class Api::ScoresController < ApplicationController
   def show
     score = Score.find_by(reg_num: params[:regNum])
     if score
-        render json: score.slice(:reg_num, :math, :literature, :f_language, :physic, :chem, :biology, :history, :geo, :ce, :f_language_id), status: ok
+        render json: score.slice(:reg_num, :math, :literature, :f_language, :physic, :chem, :biology, :history, :geo, :ce, :f_language_id), status: :ok
     else
-        render json: { error: "Not found" }, status: not_found
+        render json: { error: "Not found" }, status: :not_found
     end
   end
 
