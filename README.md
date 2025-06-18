@@ -15,7 +15,7 @@ A simple web application for viewing student scores from assignment tests.
 
 ## Demo Website
 
-👉 [Live Demo](https://cse-tcsharing.io.vn)
+👉 [Live Demo](https://cse-tcsharing.io.vn/search-score)
 
 ---
 
