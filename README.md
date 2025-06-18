@@ -32,7 +32,7 @@ A simple web application for viewing student scores from assignment tests.
 
 2. Clone both backend and frontend:
     ```bash
-    git clone https://github.com/your-backend-repo backend
+    git clone https://github.com/tison2810/backend-rails-test backend
     git clone https://github.com/tison2810/frontend-react-test frontend
     ```
 
