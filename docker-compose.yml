@@ -33,12 +33,12 @@ services:
 
   frontend:
     build:
-      context: ../frontend-react-test
+      context: ../frontend
       dockerfile: Dockerfile
     ports:
       - "5173:5173"
     volumes:
-      - ../frontend-react-test:/app
+      - ../frontend:/app
       - /app/node_modules
     depends_on:
       - backend
